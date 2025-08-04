@@ -6,9 +6,9 @@ sudo systemctl start mariadb
 
 # Verificar si se inició correctamente
 if systemctl is-active --quiet mariadb; then
-    echo "✅ MariaDB está activo."
+    echo "MariaDB está activo."
 else
-    echo "❌ Error al iniciar MariaDB."
+    echo "Error al iniciar MariaDB."
     exit 1
 fi
 
