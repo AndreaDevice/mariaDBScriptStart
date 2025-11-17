@@ -21,7 +21,7 @@ read -p "¿Apagar servicio MariaDB? (y/n): " RESPUESTA
 if [[ "$RESPUESTA" =~ ^[Yy]$ ]]; then
     echo "Deteniendo MariaDB..."
     sudo systemctl stop mariadb
-    echo "✅ MariaDB detenido."
+    echo "MariaDB detenido."
 else
-    echo "👌 MariaDB seguirá en ejecución."
+    echo "MariaDB seguirá en ejecución."
 fi
