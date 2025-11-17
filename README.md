@@ -13,3 +13,6 @@ chmod +x iniciar_mysql.sh
 
 EJECUTAR
 ./iniciar_mysql.sh
+
+
+Queda pendiente de terminar...
